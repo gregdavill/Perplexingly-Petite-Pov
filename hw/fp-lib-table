@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name ppPOV)(type KiCad)(uri ${KIPRJMOD}/tinyfpga.pretty)(options "")(descr ""))
+  (lib (name ppPOV)(type KiCad)(uri ${KIPRJMOD}/ppPOV.pretty)(options "")(descr ""))
 )
