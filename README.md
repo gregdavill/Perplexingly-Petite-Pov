@@ -8,6 +8,11 @@ A VERY small FPGA based 10 pixel POV module.
 ## Board render
 ![alt-text](hw/plot/6.35_squared_001.png "PCB render")
 
+## Pricipal of Operation
+
+The PCB is intended to be mounted at the edge of a computer fan, it should have all the hardware required to syncronise to the RPM, and keep time, display a rolling text Marquee.
+
+
 ## Hardware
  - Lattice iCE40LP1K FPGA😍
  - High speed Hall Effect Sensor 😁
@@ -16,9 +21,8 @@ A VERY small FPGA based 10 pixel POV module.
  - 10x 0201 LEDs 🤪
  - All within a 6.35mm x 6.53mm PCB!😨🤯
 
-## Pricipal of Operation
-
-The PCB is intended to be mounted at the edge of a computer fan, it should have all the hardware required to syncronise to the RPM, and keep time, display a rolling text Marquee.
+## Schematic
+![alt-text](hw/plot/ppPOV_sch.png "Sch")
 
 ## Firmware
 
