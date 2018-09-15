@@ -1,29 +1,16 @@
 # Perplexingly-Petite-Pov
-A VERY small FPGA based 10 pixel POV module.
+A collection of small LED based PCBs.
 ---
 
-*Current Status: Design Proof of concept.*
+*Current Status: Design Proof of concepts.*
+
+See README of each project to see further details.
 
 ---
-## Board render
-![alt-text](hw/plot/6.35_squared_001.png "PCB render")
+## idea_001
+Based on a Lattice iCE40LP FPGA.
+![alt-text](hw/idea_001/plot/6.35_squared_001.png "PCB render")
 
-## Pricipal of Operation
-
-The PCB is intended to be mounted at the edge of a computer fan, it should have all the hardware required to syncronise to the RPM, and keep time, display a rolling text Marquee.
-
-
-## Hardware
- - Lattice iCE40LP1K FPGA😍
- - High speed Hall Effect Sensor 😁
- - Configuration FLASH 🤩
- - 16MHz MEMs Oscillator 😎
- - 10x 0201 LEDs 🤪
- - All within a 6.35mm x 6.53mm PCB!😨🤯
-
-## Schematic
-![alt-text](hw/plot/ppPOV_sch.png "Sch")
-
-## Firmware
-
-The Firmware has not been written yet, once the hardware is prototypes we can throw this over the cubicle wall to the firmware team.
+## idea_002
+Based on a Microchip SAMD11
+![alt-text](hw/idea_002/plot/6.35_squared_002.png "PCB render")
